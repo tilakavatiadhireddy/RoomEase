@@ -1,4 +1,4 @@
-#  ROOMEASE  
+#  RoomEase  
 ##  Hotel Booking Web Application  
 
 ---
@@ -67,6 +67,13 @@ I’ve also shared the live app link. Just a small note — it might take a minu
 - **Express.js**  
 - **MongoDB**  
 - **Mongoose**
+
+### QA & Testing
+- **Selenium WebDriver**
+- **Java**
+- **TestNG**
+- **Maven**
+- **Page Object Model (POM)**
 
 ##  Deployment  
 - **Frontend:** Vercel  
