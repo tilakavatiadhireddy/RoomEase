@@ -1,5 +1,5 @@
 #  ROOMEASE  
-##  Full-Stack Hotel Booking Web Application  
+##  Hotel Booking Web Application  
 
 ---
 
