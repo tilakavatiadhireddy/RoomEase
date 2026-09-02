@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 02 19:09:03 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30410 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.roomease.LoginTest.verifyUserCanLogin()'><b>verifyUserCanLogin</b><br>Test class: com.roomease.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.roomease.LoginTest@7bb58ca3</td></tr>
+<tr>
+<td title='com.roomease.BookingTest.verifyUserCanPrepareRoomBooking()'><b>verifyUserCanPrepareRoomBooking</b><br>Test class: com.roomease.BookingTest</td>
+<td></td>
+<td>4</td>
+<td>com.roomease.BookingTest@29ba4338</td></tr>
+<tr>
+<td title='com.roomease.LoginTest.verifyInvalidLogin()'><b>verifyInvalidLogin</b><br>Test class: com.roomease.LoginTest</td>
+<td></td>
+<td>1</td>
+<td>com.roomease.LoginTest@7bb58ca3</td></tr>
+<tr>
+<td title='com.roomease.RegisterTest.verifyUserCanRegister()'><b>verifyUserCanRegister</b><br>Test class: com.roomease.RegisterTest</td>
+<td></td>
+<td>0</td>
+<td>com.roomease.RegisterTest@770c2e6b</td></tr>
+<tr>
+<td title='com.roomease.LoginTest.verifyUserCanLogout()'><b>verifyUserCanLogout</b><br>Test class: com.roomease.LoginTest</td>
+<td></td>
+<td>7</td>
+<td>com.roomease.LoginTest@7bb58ca3</td></tr>
+<tr>
+<td title='com.roomease.MyBookingsTest.verifyUserCanOpenMyBookingsPage()'><b>verifyUserCanOpenMyBookingsPage</b><br>Test class: com.roomease.MyBookingsTest</td>
+<td></td>
+<td>2</td>
+<td>com.roomease.MyBookingsTest@646be2c3</td></tr>
+<tr>
+<td title='com.roomease.HomeTest.verifyAboutPageOpens()'><b>verifyAboutPageOpens</b><br>Test class: com.roomease.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.roomease.HomeTest@57175e74</td></tr>
+<tr>
+<td title='com.roomease.HomeTest.verifyRoomsAreDisplayed()'><b>verifyRoomsAreDisplayed</b><br>Test class: com.roomease.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.roomease.HomeTest@57175e74</td></tr>
+<tr>
+<td title='com.roomease.HomeTest.verifyUserCanOpenRoomDetails()'><b>verifyUserCanOpenRoomDetails</b><br>Test class: com.roomease.HomeTest</td>
+<td></td>
+<td>0</td>
+<td>com.roomease.HomeTest@57175e74</td></tr>
+<tr>
+<td title='com.roomease.RegisterTest.verifyDuplicateRegistrationFails()'><b>verifyDuplicateRegistrationFails</b><br>Test class: com.roomease.RegisterTest</td>
+<td></td>
+<td>1</td>
+<td>com.roomease.RegisterTest@770c2e6b</td></tr>
+</table><p>
+</body>
+</html>
