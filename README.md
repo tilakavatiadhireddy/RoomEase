@@ -68,7 +68,7 @@ I’ve also shared the live app link. Just a small note — it might take a minu
 - **MongoDB**  
 - **Mongoose**
 
-### QA & Testing
+##  Testing
 - **Selenium WebDriver**
 - **Java**
 - **TestNG**
