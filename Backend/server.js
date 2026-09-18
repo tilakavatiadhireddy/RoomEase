@@ -14,7 +14,12 @@ app.use(cors());
 app.use(express.json());
 //need to check this
 app.use("/uploads", express.static("uploads"));
-
+app.use(
+  cors({
+    origin: "https://room-ease-e7iq.vercel.app",
+    credentials: true,
+  })
+);
 // Routes
 app.use("/api/rooms", roomRoutes);
 app.use("/api/bookings", bookingRoutes);
