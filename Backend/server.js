@@ -6,20 +6,21 @@ import roomRoutes from "./routes/roomRoutes.js";
 import bookingRoutes from "./routes/bookingRoutes.js";
 import userRoutes from "./routes/userRoutes.js";  
 import aiRoutes from "./routes/aiRoutes.js";
-import "dotenv/config";
+dotenv.config();
 
 const app = express();
 
-app.use(cors());
-app.use(express.json());
-//need to check this
-app.use("/uploads", express.static("uploads"));
 app.use(
   cors({
     origin: "https://room-ease-e7iq.vercel.app",
     credentials: true,
   })
 );
+
+app.use(express.json());
+
+app.use("/uploads", express.static("uploads"));
+
 // Routes
 app.use("/api/rooms", roomRoutes);
 app.use("/api/bookings", bookingRoutes);
