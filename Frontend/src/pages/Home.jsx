@@ -50,7 +50,7 @@ function Home() {
       {/* AI SEARCH */}
       <div className="ai-search-container">
 
-        <h1>🤖 RoomEase AI</h1>
+        <h1>RoomEase AI</h1>
 
         <p>
           Tell us what kind of room you're looking for.
