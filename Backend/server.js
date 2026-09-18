@@ -4,9 +4,9 @@ import cors from "cors";
 import dotenv from "dotenv";
 import roomRoutes from "./routes/roomRoutes.js";
 import bookingRoutes from "./routes/bookingRoutes.js";
-import userRoutes from "./routes/userRoutes.js";
-
-dotenv.config();
+import userRoutes from "./routes/userRoutes.js";  
+import aiRoutes from "./routes/aiRoutes.js";
+import "dotenv/config";
 
 const app = express();
 
@@ -19,6 +19,7 @@ app.use("/uploads", express.static("uploads"));
 app.use("/api/rooms", roomRoutes);
 app.use("/api/bookings", bookingRoutes);
 app.use("/api/users", userRoutes);
+app.use("/api/ai", aiRoutes);
 // Connect MongoDB
 mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB Connected"))
